@@ -50,8 +50,8 @@ body {
   height: 15rem;
   background: linear-gradient(
     to right,
-    rgba(41, 14, 59, 0.6) 0%,
-    rgb(115, 111, 133, 0.5) 100%
+    rgba(41, 14, 59, 0.5) 0%,
+    rgb(115, 111, 133, 0.25) 100%
   );
   border-radius: 50%;
   position: absolute;
@@ -94,11 +94,11 @@ body {
   cursor: pointer;
   font-weight: bold;
   color: lightgray;
+  transition: all 0.75s ease-out;
 }
 
-button.active {
-  background: lightgray;
-  color: black;
+.buttons button:hover {
+  background-color: rgb(76, 25, 204);
 }
 
 .contact {
@@ -115,4 +115,9 @@ button.active {
   border-radius: 15px;
   font-weight: bolder;
   transition: all 0.75s ease-out;
+}
+
+.contact button:hover {
+  background-color: white;
+  color: black;
 }

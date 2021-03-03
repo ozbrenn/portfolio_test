@@ -24,10 +24,10 @@ container.addEventListener('mouseenter', e => {
 
     //popout
     title.style.transform = 'translateZ(120px)';
-    logo.style.transform = 'translateZ(150px) rotateZ(-5deg)';
+    logo.style.transform = 'translateZ(150px) rotateZ(-2deg)';
     description.style.transform = 'translateZ(100px)';
     buttons.style.transform = 'translateZ(75px)';
-    contact.style.transform = 'translateZ(50px)';
+    contact.style.transform = 'translateZ(110px)';
 });
 
 
