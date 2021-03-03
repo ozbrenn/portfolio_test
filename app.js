@@ -10,6 +10,7 @@ const buttons = document.querySelector('.buttons');
 const description = document.querySelector('.info h3');
 
 
+
 //moving animation event
 container.addEventListener('mousemove', (e) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 20;
@@ -28,6 +29,7 @@ container.addEventListener('mouseenter', e => {
     description.style.transform = 'translateZ(100px)';
     buttons.style.transform = 'translateZ(75px)';
     contact.style.transform = 'translateZ(110px)';
+    
 });
 
 
@@ -42,4 +44,5 @@ container.addEventListener('mouseleave', e => {
     description.style.transform = 'translateZ(0px)';
     buttons.style.transform = 'translateZ(0px)';
     contact.style.transform = 'translateZ(0px)';
+    
 });
