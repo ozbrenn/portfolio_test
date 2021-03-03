@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +42,7 @@ body {
 .logo img {
   width: 20rem;
   z-index: 2;
+  transition: all 0.75s ease-out;
 }
 
 .circle {
@@ -49,8 +50,8 @@ body {
   height: 15rem;
   background: linear-gradient(
     to right,
-    rgba(245, 70, 66, 0.75),
-    rgba(8, 83, 156, 0.75)
+    rgba(41, 14, 59, 0.6) 0%,
+    rgb(115, 111, 133, 0.5) 100%
   );
   border-radius: 50%;
   position: absolute;
@@ -67,6 +68,7 @@ body {
 .info h1 {
   font-size: 3rem;
   color: white;
+  transition: all 0.75s ease-out;
 }
 
 .info h3 {
@@ -74,11 +76,13 @@ body {
   padding: 2rem 0rem;
   color: lightgray;
   font-weight: lighter;
+  transition: all 0.75s ease-out;
 }
 
 .buttons {
   display: flex;
   justify-content: space-between;
+  transition: all 0.75s ease-out;
 }
 
 .buttons button {
@@ -110,4 +114,5 @@ button.active {
   cursor: pointer;
   border-radius: 15px;
   font-weight: bolder;
+  transition: all 0.75s ease-out;
 }
