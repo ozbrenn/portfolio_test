@@ -5,13 +5,20 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Antic Didone", serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: black;
+  background: #0e0e0e;
   perspective: 1000px;
+}
+
+a,
+a:link,
+a:visited {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
 }
 
 /* main card element */
@@ -74,9 +81,10 @@ body {
 }
 
 .info h3 {
+  font-family: "Antic", sans-serif;
   font: 1.3rem;
   padding: 2rem 0rem;
-  color: lightgray;
+  color: rgb(196, 196, 196);
   font-weight: lighter;
   transition: all 0.75s ease-out;
 }
@@ -89,6 +97,7 @@ body {
 }
 
 .buttons button {
+  font-family: "Antic", sans-serif;
   padding: 0.5rem 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -118,6 +127,7 @@ body {
   color: white;
   cursor: pointer;
   border-radius: 10px;
+  font-family: "Antic", sans-serif;
   font-weight: bolder;
   font-size: 1rem;
   transition: all 0.75s ease-out;
