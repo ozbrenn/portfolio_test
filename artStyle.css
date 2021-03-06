@@ -8,6 +8,8 @@ body {
   background: #0e0e0e;
 }
 
+/* header */
+
 header a {
   display: inline-block;
 }
@@ -15,4 +17,47 @@ header a {
 header img {
   max-width: 60px;
   margin: 1rem 1rem;
+}
+
+/* main content */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+/* info (left side) */
+
+.info {
+  color: white;
+}
+
+.info h1 {
+  font-family: "Antic Didone", serif;
+}
+
+.info h3 {
+  font-family: "Antic", sans-serif;
+}
+
+.info hr {
+  margin-right: 3rem;
+}
+
+.info p {
+  font-family: "Antic", sans-serif;
+  line-height: 1.6rem;
+}
+
+/* gallery grid (right side) */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  grid-template-rows: repeat(auto);
+}
+
+.gallery img {
 }
